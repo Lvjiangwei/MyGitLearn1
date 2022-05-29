@@ -1,0 +1,28 @@
+git config --golbal user.name "XXX"                                     设置全局用户名
+git config --golbal user.email "XXX"                                    设置全局email
+git init                                                                初始化本地仓库
+git status                                                              查看本地库状态
+git add XXX                                                             添加暂存区(一个文件)
+    git add .                                                           添加全部文件到暂存区
+git rm --cached hello.txt                                               删除暂存区文件
+git commit -m "日志信息"                                                  提交文件到本地仓库
+git reflog                                                              查看提交信息（简略）
+git log                                                                 查看提交信息（详情）
+git reset --hard 版本号                                                  版本穿越（仅指针偏移）
+git branch 分支名                                                        创建分支
+git branch -v                                                           查看分支
+git checkout 分支名                                                      切换分支
+git merge 分支名                                                         把指定分支合并到当前分支上
+
+
+
+Linux基础命令
+ll                                          查看当前目录下文件
+    ll -a                                   查看当前目录下全部文件
+vim   hello.txt                             创建一个hello.txt
+    yy                                      复制
+    p                                       粘贴
+    i                                       插入
+    :wq                                     退出（保存）
+cat hello.txt                               查看hello.txt文件的内容
+tail -n 1 hello.txt                         查看hello.txt文件末尾第一行内容（最后一行）
