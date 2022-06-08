@@ -8,6 +8,7 @@ git rm --cached hello.txt                                               删除�
 git commit -m "日志信息"                                                  提交文件到本地仓库
 git reflog                                                              查看提交信息（简略）
 git log                                                                 查看提交信息（详情）
+git shortlog                                                            仅显示提交的日志信息
 git reset --hard 版本号                                                  版本穿越（仅指针偏移）
 git branch 分支名                                                        创建分支
 git branch -v                                                           查看分支
@@ -23,6 +24,7 @@ git remote add 别名 远程地址                                              
 git push 别名 分支                                                       推送本地分支上的内容到远程仓库
 git clone 远程地址                                                       将远程仓库的内容克隆到本地
 git pull 远程仓库地址别名 远程分支名                                         将远程仓库对于分支最新内容拉下来后与当前本地分支直接合并
+
 
 
 
